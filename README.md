@@ -14,7 +14,7 @@ This project demonstrates a complete CI/CD pipeline for a Python package called 
 - [X] **Implement the project (code files)** - Complete Python package with proper structure
 - [x] **Add a simple GHA workflow** - Basic GitHub Actions setup and execution
 - [x] **Add linting (ruff) and format checks (black)** - Code quality automation
-- [ ] **Add typing (mypy) and security checks (bandit)** - Static analysis and security scanning
+- [x] **Add typing (mypy) and security checks (bandit)** - Static analysis and security scanning
 - [ ] **Add test automation** - Comprehensive test suite with pytest
 - [ ] **Build our Python project** - Automated package building
 - [ ] **Publish the project to both TestPyPI and PyPI** - Automated package publishing on releases
