@@ -4,11 +4,12 @@ from typing import Collection
 
 logger = logging.getLogger(__name__)
 
+
 def check_urls(
     urls: Collection[str], timeout: int = 5
 ) -> dict[str, str]:
     """
-    Checks a list of URLs and returns their status. 
+    Checks a list of URLs and returns their status.
 
     Args:
         urls: A list of URLs strings to check.
@@ -17,9 +18,11 @@ def check_urls(
     Returns:
         A dictionary mapping each URL to its status string.
     """
-    
-    logger.info(f"Starting check for {len(urls)} URLs with a timeout of {timeout}")
-    results = {}
+
+    logger.info(
+        f"Starting check for {len(urls)} URLs with a timeout of {timeout}"
+    )
+    results: dict[str, str] = {}
     for url in urls:
         status = "UNKNOWN"
         try:
@@ -28,17 +31,22 @@ def check_urls(
             if response.ok:
                 status = f"{response.status_code} OK"
             else:
-                status = f"{response.status_code} {response.reason}"
+                status = (
+                    f"{response.status_code} {response.reason}"
+                )
         except requests.exceptions.Timeout:
             status = "TIMEOUT"
             logger.warning(f"Request to {url} timed out.")
         except requests.exceptions.ConnectionError:
             status = "CONNECTION ERROR"
-            logger.warning(f"Connection error for {url}.")  
+            logger.warning(f"Connection error for {url}.")
         except requests.exceptions.RequestException as e:
             status = f"REQUEST_ERROR: {type(e).__name__}"
-            logger.error(f"An unexpected error occurred for {url}: {e}", exc_info=True)
-        
+            logger.error(
+                f"An unexpected error occurred for {url}: {e}",
+                exc_info=True,
+            )
+
         results[url] = status
         logger.info(f"Checked {url:<40} -> {status}")
     logger.info(" URL check finished.")
