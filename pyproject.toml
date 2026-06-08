@@ -31,8 +31,9 @@ check-urls = "simple_http_checker.cli:main"
 line-length = 65
 
 [tool.black]
+
 line-length = 65
-target-version = ["py312"]
+
 
 [tool.mypy]
 warn_return_any = true
