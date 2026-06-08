@@ -18,7 +18,7 @@ dev =[
     "pytest",
     "pytest-mock",
     "ruff",
-    "black",
+    "black==26.3.0",
     "mypy",
     "bandit",
     "types-requests"
@@ -29,10 +29,10 @@ check-urls = "simple_http_checker.cli:main"
 
 [tool.ruff]
 line-length = 65
-target-version = "py312"
+
 [tool.black]
 line-length = 65
-target-version = ["py312"]
+
 
 [tool.mypy]
 warn_return_any = true
