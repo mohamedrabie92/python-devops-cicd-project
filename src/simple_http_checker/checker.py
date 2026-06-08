@@ -38,7 +38,7 @@ def check_urls(
             status = "TIMEOUT"
             logger.warning(f"Request to {url} timed out.")
         except requests.exceptions.ConnectionError:
-            status = "CONNECTION ERROR"
+            status = "CONNECTION_ERROR"
             logger.warning(f"Connection error for {url}.")
         except requests.exceptions.RequestException as e:
             status = f"REQUEST_ERROR: {type(e).__name__}"

@@ -32,7 +32,7 @@ def main(urls: Collection[str], timeout: int, verbose: bool):
 
     if not urls:
         logger.warning("No URLs provided to check.")
-        click.echo("Usage: check_urls <URL1> <URL2> ...")
+        click.echo("Usage: check-urls <URL1> <URL2> ...")
         return
 
     logger.info(f"Starting check for {len(urls)} URLs.")
