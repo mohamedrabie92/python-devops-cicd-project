@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.2.2 (2026-06-18)
+
+### Bug Fixes
+
+- **python-cicd**: Add variable sign for env var
+  ([`3eeb41a`](https://github.com/mohamedrabie92/python-devops-cicd-project/commit/3eeb41ac9fb82a8d60ac92f1d557b83502366282))
+
+
 ## v1.2.1 (2026-06-18)
 
 ### Bug Fixes
