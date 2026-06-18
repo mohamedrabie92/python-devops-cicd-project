@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.2.3 (2026-06-18)
+
+### Bug Fixes
+
+- **python-cicd**: Edit variable for env var
+  ([`c15ed4d`](https://github.com/mohamedrabie92/python-devops-cicd-project/commit/c15ed4dc02da0d3310b484954ee9d6717e60aaca))
+
+
 ## v1.2.2 (2026-06-18)
 
 ### Bug Fixes
