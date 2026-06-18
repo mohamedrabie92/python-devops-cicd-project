@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.2.1 (2026-06-18)
+
+### Bug Fixes
+
+- **python-cicd**: Fix the name of package
+  ([`292a7a8`](https://github.com/mohamedrabie92/python-devops-cicd-project/commit/292a7a8329d3366df39fa4a4304df1d297497437))
+
+
 ## v1.2.0 (2026-06-18)
 
 ### Features
