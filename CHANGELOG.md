@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.2.4 (2026-06-18)
+
+### Bug Fixes
+
+- **python-cicd**: Add environment in publish yaml file
+  ([`84065ff`](https://github.com/mohamedrabie92/python-devops-cicd-project/commit/84065ff21b518de605e9f5354769996ea14bf9d4))
+
+
 ## v1.2.3 (2026-06-18)
 
 ### Bug Fixes
