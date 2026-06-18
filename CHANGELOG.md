@@ -2,6 +2,17 @@
 
 <!-- version list -->
 
+## v1.2.6 (2026-06-18)
+
+### Bug Fixes
+
+- **python-cicd**: Fix pacakge name in publish yaml and pyproject toml files
+  ([`677bef3`](https://github.com/mohamedrabie92/python-devops-cicd-project/commit/677bef327aac7235ba47415800fff8af0b41d7fc))
+
+- **python-cicd**: Fix pacakge name in publish yaml file and pyproject
+  ([`5c75939`](https://github.com/mohamedrabie92/python-devops-cicd-project/commit/5c75939595aa2ef5b3e2cca83f91f70e71a9f87f))
+
+
 ## v1.2.5 (2026-06-18)
 
 ### Bug Fixes
