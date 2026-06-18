@@ -17,7 +17,7 @@ This project demonstrates a complete CI/CD pipeline for a Python package called 
 - [x] **Add typing (mypy) and security checks (bandit)** - Static analysis and security scanning
 - [x] **Add test automation** - Comprehensive test suite with pytest
 - [X] **Build our Python project** - Automated package building
-- [ ] **Publish the project to both TestPyPI and PyPI** - Automated package publishing on releases
+- [X] **Publish the project to both TestPyPI and PyPI** - Automated package publishing on releases
 
 ## 📚 Learning Objectives
 
